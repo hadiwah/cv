@@ -3,10 +3,109 @@
   background-color: #e4fde8;
 }
 
+nav {
+  background: rgba(14, 124, 0, 0.9);
+  backdrop-filter: blur(10px);
+}
+
 #gallery {
   background-color: #e4fde8;
+}
+#skill {
+  background-image: url("img/gallery/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#skill h2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
 }
 
 section {
   padding-top: 5rem;
+}
+
+#skill .card {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+/* form login */
+#login .container {
+  position: relative;
+
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  border-radius: 2rem;
+}
+
+.circle {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.1);
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+  top: 5%;
+  right: 10%;
+}
+.circle:nth-child(2) {
+  bottom: 5%;
+  left: 10%;
+}
+.circle:nth-child(3) {
+  bottom: 5%;
+  right: 10%;
+}
+
+.login .card {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
+  border-radius: 2rem;
+  z-index: 1;
+  backdrop-filter: blur(1rem);
+  position: relative;
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* form register */
+.register,
+.login {
+  background: linear-gradient(to right top, rgb(14, 124, 0), rgb(117, 233, 146));
+  min-height: 100vh;
+}
+
+.register .card {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
+  border-radius: 2rem;
+  z-index: 1;
+  backdrop-filter: blur(1rem);
+  position: relative;
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle1,
+.circle2 {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.1);
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 10%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
 }
