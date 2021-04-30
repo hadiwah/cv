@@ -1,21 +1,20 @@
 .header {
   padding-top: 6rem;
-  background-color: #e4fde8;
+  background-color: #cedefc;
 }
 
 nav {
-  background: rgba(14, 124, 0, 0.9);
+  background: rgba(25, 0, 255, 0.8);
   backdrop-filter: blur(10px);
 }
 
 #gallery {
-  background-color: #e4fde8;
+  background-color: #cedefc;
 }
 #skill {
   background-image: url("img/gallery/1.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 #skill h2 {
@@ -30,19 +29,13 @@ section {
 
 #skill .card {
   background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(0.5rem);
 }
 
 /* form login */
-#login .container {
-  position: relative;
-
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(6px);
-  border-radius: 2rem;
+.login {
+  background: linear-gradient(to right top, rgb(83, 143, 253), rgb(200, 220, 247));
 }
 
 .circle {
@@ -68,26 +61,24 @@ section {
 }
 
 .login .card {
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
-  border-radius: 2rem;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+  border-radius: 1rem;
   z-index: 1;
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0.5rem);
   position: relative;
   box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* form register */
-.register,
-.login {
-  background: linear-gradient(to right top, rgb(14, 124, 0), rgb(117, 233, 146));
-  min-height: 100vh;
+.register {
+  background: linear-gradient(to right top, rgb(83, 143, 253), rgb(200, 220, 247));
 }
 
 .register .card {
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4));
-  border-radius: 2rem;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+  border-radius: 1rem;
   z-index: 1;
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0.5rem);
   position: relative;
   box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.3);
 }
