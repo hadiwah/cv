@@ -23,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Hadi Wahyudi</a>
+        <a class="navbar-brand" href="#">HadiWah</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,6 +66,7 @@
       </svg>
     </section>
     <!-- akhir header -->
+    
     <!-- about -->
     <section id="about">
       <div class="container mb-3">
@@ -75,11 +76,11 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4" data-aos="fade-right">
-            <p>Bercita-cita ingin memajukan kehidupan agar menjadi lebih mudah dengan ide dan inovasi terbaru agar tercipta suatu sistem yang bersih.</p>
+          <div class="col-md-4" data-aos="fade-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sit quos magnam esse. Similique, magnam!</p>
           </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
-            <p>Menyukai tantangan dan memiliki rasa ingin tahu yang besar di bidang teknologi, berkeinginan belajar terus menerus seiring dengan perkembangan zaman.</p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="200">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nisi cupiditate necessitatibus maiores unde excepturi quasi quia aliquam non. Minus corporis tenetur cupiditate tempora beatae.</p>
           </div>
         </div>
       </div>
@@ -96,7 +97,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 align-self-center mb-3">
-            <div class="card text-center" data-aos="zoom-in-up" data-aos-duration="200">
+            <div class="card text-center shadow" data-aos="zoom-in-up" data-aos-duration="200">
               <div class="card-body">
                 <h5 class="card-title">PHP</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -106,7 +107,7 @@
           </div>
           <div class="col-md-4 align-self-center mb-3">
             <div class="card text-center"  data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="100">
-              <div class="card-body">
+              <div class="card-body shadow">
                 <h5 class="card-title">HTML & CSS</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -114,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 align-self-center mb-3">
-            <div class="card text-center" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="200">
+            <div class="card text-center shadow" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="200">
               <div class="card-body">
                 <h5 class="card-title">JavaScript</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -123,7 +124,7 @@
             </div>
           </div>
           <div class="col-md-4 align-self-center mb-3">
-            <div class="card text-center" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="300">
+            <div class="card text-center shadow" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="300">
               <div class="card-body">
                 <h5 class="card-title">MySQL</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -132,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-4 align-self-center mb-3">
-            <div class="card text-center"  data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="400">
+            <div class="card text-center shadow"  data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="400">
               <div class="card-body">
                 <h5 class="card-title">HTML & CSS</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -141,7 +142,7 @@
             </div>
           </div>
           <div class="col-md-4 align-self-center mb-3">
-            <div class="card text-center" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="500">
+            <div class="card text-center shadow" data-aos="zoom-in-up" data-aos-duration="200" data-aos-delay="500">
               <div class="card-body">
                 <h5 class="card-title">JavaScript</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -267,7 +268,7 @@
       gsap.registerPlugin(TextPlugin);
       gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Prodi S1-Teknik Informatika'});
       gsap.from('.header img', {duration: 1, opacity: 0, rotateY: 360 });
-      gsap.from('.navbar', {duration: 1.5, y: '-100', opacity: 0, ease: 'bounce'});
+      gsap.from('.navbar-brand', {duration: 1, opacity: 0, y: '-100', ease: 'bounce' });
       gsap.from('.display-5', {duration: 1, x: '-50', opacity: 0, ease: 'back', delay: 0.5});
     </script>
     
