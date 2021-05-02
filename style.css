@@ -4,8 +4,7 @@
 }
 
 nav {
-  background: rgba(25, 0, 255, 0.8);
-  backdrop-filter: blur(10px);
+  background: #cedefc;
 }
 
 #gallery {
